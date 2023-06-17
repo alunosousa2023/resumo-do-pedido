@@ -27,6 +27,13 @@ html, body {
     justify-content: center;
 }
 
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
 main {
     background-color: white;
     max-width: 375px;
@@ -34,6 +41,7 @@ main {
     height: 90vh;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.207);
 }
 
 div#img_ilustration {
@@ -108,11 +116,20 @@ div#preco > #preco_bloco > p{
     text-align: center;
     font-weight: 700;
     background-color: #312BD9;
-    color: white;
     max-width: 375px;
     min-width: none;
     padding: 12px 0px;
     border-radius: 10px;
+    box-shadow: 0px 20px 15px -5px rgba(0, 0, 0, 0.157);
+}
+
+#B_pagamento > a {
+    color: white;
+    text-decoration: none;
+}
+
+#B_pagamento:hover {
+    background-color: #766CF1;
 }
 
 #B_cancelamento {
@@ -127,4 +144,13 @@ div#preco > #preco_bloco > p{
     border-radius: 10px;
     margin-top: 20px;
 }
+
+#B_cancelamento > a {
+    text-decoration: none;
+}
+
+#B_cancelamento > a:hover {
+    color: black;
+}
+
 
