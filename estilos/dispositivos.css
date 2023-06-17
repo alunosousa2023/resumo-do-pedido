@@ -21,7 +21,8 @@ html, body {
     background-color: #E0E8FF;
     width: 100vw;
     height: 100vh;
-    padding: 10px;
+    padding: 20px;
+    overflow: hidden;
 
     align-items: center;
     justify-content: center;
@@ -38,7 +39,7 @@ main {
     background-color: white;
     max-width: 375px;
     min-width: none;
-    height: 90vh;
+    max-height: 667px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.207);
