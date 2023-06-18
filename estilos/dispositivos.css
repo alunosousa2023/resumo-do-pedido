@@ -29,7 +29,7 @@ html, body {
 }
 
 body {
-    background-image: url(../images/pattern-background-desktop.svg);
+    background-image: url('../images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
@@ -152,6 +152,12 @@ div#preco > #preco_bloco > p{
 
 #B_cancelamento > a:hover {
     color: black;
+}
+
+@media screen and (min-width: 667px) {
+    body {
+        background-image: url('../images/pattern-background-desktop.svg');
+    }
 }
 
 
